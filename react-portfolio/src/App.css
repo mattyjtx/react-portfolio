@@ -2,9 +2,16 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
+body {
+  background-image: url('./assets/images/pexels-brett-sayles-2097628.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 0px;
+}
+
 .App {
   text-align: center;
-  
+ 
 }
 
 .App-logo {
