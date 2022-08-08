@@ -1,8 +1,13 @@
+import React from 'react';
+
+
 function Header() {
     return (
-      <>
-  <h1>Matt Gonzales</h1>
-      </>
+      
+<>
+<h1 position="fixed" >Matt Gonzales</h1>
+</>
+
     );
   }
   
