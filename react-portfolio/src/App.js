@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import ButtonAppBar from './components/AppBar';
 import Navbar from './components/Navbar/Navbar';
 import { ThemeProvider, createTheme } from '@mui/material/styles'
