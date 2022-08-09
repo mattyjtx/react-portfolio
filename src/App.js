@@ -5,6 +5,7 @@ import ButtonAppBar from './components/AppBar';
 import Navbar from './components/Navbar/Navbar';
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import {lightBlue} from '@mui/material/colors'
+import Portfolio from './components/Portfolio/Portfolio';
 
 const color = lightBlue[200]
 
@@ -29,6 +30,7 @@ function App() {
     <Navbar />
     <h1 className='title-name' >Matt Gonzales</h1>
 <Header />
+
     </>
   );
 }
