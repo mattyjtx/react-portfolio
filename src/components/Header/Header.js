@@ -8,11 +8,13 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
 
+import myphoto from '..//..//assets//images/pfp.jpg'
+
 
 
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#90caf9',
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: 'center',
@@ -33,12 +35,12 @@ function Header() {
       <Grid container spacing={3}>
         <Grid item xs={7}>
           <Item className='about-me'>    
-             <div>
+             <div className='left-grid'>
           <h2>About Me</h2>
           <p>
             Hi! My name is Matthew Gonzales and im a full stack developer (in
-            progress). Im currently enrolled in University of Arizonas coding
-            bootcamp and learning HTML, CSS, Javascript & React. My hobbies
+            progress). Im currently enrolled in University of Arizona's coding
+            bootcamp and learning HTML, CSS, Javascript, React & more. My hobbies
             include making music, reading manga, and playing video games.
           </p>
           <ul class="list-group">
@@ -52,8 +54,8 @@ function Header() {
         </Item>
         </Grid>
         <Grid item xs={5}>
-          <Item className='about-me'>
-            <img src='./assets/images/pfp.jpg'/>
+          <Item className='profile-pic'>
+            <img src={myphoto}/>
           </Item>
         </Grid>
  

@@ -27,6 +27,7 @@ function App() {
   return (
     <>
     <Navbar />
+    <h1 className='title-name' >Matt Gonzales</h1>
 <Header />
     </>
   );

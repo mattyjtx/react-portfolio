@@ -9,6 +9,12 @@ body {
   height: 0px;
 }
 
+.title-name {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Planet Kosmos';
+}
+
 .App {
   text-align: center;
  
