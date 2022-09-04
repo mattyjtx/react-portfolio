@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Button } from '../Button/Button';
 import { MenuItems } from './MenuItems';
 import './Navbar.css'
@@ -20,7 +20,7 @@ export default function Navbar() {
                 })}
                 
             </ul>
-            <Button>Sign Up</Button>
+            <Button>Download Resume</Button>
         </nav>
     )
 }

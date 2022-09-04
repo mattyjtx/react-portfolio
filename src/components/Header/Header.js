@@ -50,12 +50,13 @@ function Header() {
             <li class="list-group-item">Freelance: Available</li>
             
           </ul>
+          
         </div>
         </Item>
         </Grid>
         <Grid item xs={5}>
           <Item className='profile-pic'>
-            <img src={myphoto}/>
+            <img src={myphoto} alt="frappo"/>
           </Item>
         </Grid>
  

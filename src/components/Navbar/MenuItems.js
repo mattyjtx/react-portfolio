@@ -15,7 +15,7 @@
         cName: 'nav-links'
     },
     {
-        title: 'Sign Up ',
+        title: 'Download Resume ',
         URL: '#',
         cName: 'nav-links-mobile'
     },

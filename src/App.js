@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import {lightBlue} from '@mui/material/colors'
 import Portfolio from './components/Portfolio/Portfolio';
+import Home from './pages/Home/Home';
 
 const color = lightBlue[200]
 
@@ -27,9 +28,10 @@ const theme = createTheme({
 function App() {
   return (
     <>
-    <Navbar />
+    <Home/>
+    {/* <Navbar />
     <h1 className='title-name' >Matt Gonzales</h1>
-<Header />
+<Header /> */}
 
     </>
   );
