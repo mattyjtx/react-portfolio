@@ -30,11 +30,12 @@ function App() {
   return (
     <Router>
       <>
-      <Home />
+
         <Routes>
           {/* <Navbar />
           <h1 className='title-name' >Matt Gonzales</h1>
       <Header /> */}
+          <Route path= '/' element={<Home />}></Route>
           <Route path='/AboutMe' element={<AboutMe />}></Route>
         </Routes>
       </>

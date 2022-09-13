@@ -12,7 +12,7 @@
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
-    font-family: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .fa-react {

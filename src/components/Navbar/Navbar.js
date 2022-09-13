@@ -8,7 +8,7 @@ import './Navbar.css'
 export default function Navbar() {
     return (
         <nav className='NavbarItems'>
-            <h1 className='navbar-logo'>Hello <i className='fa-solid fa-code'></i></h1>
+            <h1 className='navbar-logo'>hello <i className='fa-solid fa-code'></i></h1>
             <div className='menu-icon'>
 
             </div>
