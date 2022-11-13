@@ -7,7 +7,7 @@ import './Navbar.css'
 
 export default function Navbar() {
     return (
-        <nav className='NavbarItems'>
+        <div className='NavbarItems'>
             <h1 className='navbar-logo'>hello <i className='fa-solid fa-code'></i></h1>
             <div className='menu-icon'>
 
@@ -21,6 +21,6 @@ export default function Navbar() {
                 
             </ul>
             <Button>Download Resume</Button>
-        </nav>
+        </div>
     )
 }

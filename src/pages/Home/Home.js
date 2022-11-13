@@ -8,8 +8,8 @@ import { useState } from "react";
 function Home() {
     return(
         <>
-            <Navbar className= 'sticky-nav' fixed="top">
-                </Navbar>
+            <Navbar className= 'sticky-nav'>
+                </Navbar><br></br>
             <Header />
         </>
     );
