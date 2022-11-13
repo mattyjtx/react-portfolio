@@ -4,10 +4,9 @@ import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import {lightBlue} from '@mui/material/colors'
-import Portfolio from './components/Portfolio/Portfolio';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import AboutMe from './pages/AboutMe/AboutMe';
 import LandingPage from './pages/LandingPage/LandingPage';
+import Home from './pages/Home/Home';
 
 const color = lightBlue[200]
 
@@ -35,7 +34,7 @@ function App() {
           <h1 className='title-name' >Matt Gonzales</h1>
       <Header /> */}
           <Route path= '/' element={<LandingPage />}></Route>
-          <Route path='/AboutMe' element={<AboutMe />}></Route>
+          <Route path='/Home' element={<Home />}></Route>
         </Routes>
       </>
     </Router>

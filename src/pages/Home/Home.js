@@ -1,13 +1,14 @@
 import * as React from 'react';
 import Header from '../../components/Header/Header';
 import Navbar from '../../components/Navbar/Navbar';
+import './Home.css';
 import { useState } from "react";
 
 
-function AboutMe() {
+function Home() {
     return(
         <>
-            <Navbar className= 'sticky-nav'>
+            <Navbar className= 'sticky-nav' fixed="top">
                 </Navbar>
             <Header />
         </>
@@ -15,4 +16,4 @@ function AboutMe() {
 
 }
 
-export default AboutMe;
+export default Home;
