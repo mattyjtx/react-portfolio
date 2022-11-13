@@ -1,10 +1,11 @@
 import * as React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
-import './Home.css';
+import './LandingPage.css';
 import {BrowserRouter as Router, Link, Outlet} from 'react-router-dom';
+import Navbar from '../../components/Navbar/Navbar';
 
 
-function Home() {
+function LandingPage() {
     return(
 
             <>
@@ -23,4 +24,4 @@ function Home() {
 
 }
 
-export default Home;
+export default LandingPage;

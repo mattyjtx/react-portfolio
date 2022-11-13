@@ -5,9 +5,9 @@ import Navbar from './components/Navbar/Navbar';
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import {lightBlue} from '@mui/material/colors'
 import Portfolio from './components/Portfolio/Portfolio';
-import Home from './pages/Home/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutMe from './pages/AboutMe/AboutMe';
+import LandingPage from './pages/LandingPage/LandingPage';
 
 const color = lightBlue[200]
 
@@ -30,12 +30,11 @@ function App() {
   return (
     <Router>
       <>
-
         <Routes>
           {/* <Navbar />
           <h1 className='title-name' >Matt Gonzales</h1>
       <Header /> */}
-          <Route path= '/' element={<Home />}></Route>
+          <Route path= '/' element={<LandingPage />}></Route>
           <Route path='/AboutMe' element={<AboutMe />}></Route>
         </Routes>
       </>

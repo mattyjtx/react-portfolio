@@ -1,0 +1,5 @@
+.sticky-nav {
+   display: flex;
+   justify-content: flex-start;
+   align-self: auto;
+}
