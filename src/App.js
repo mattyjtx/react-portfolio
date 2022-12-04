@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Navbar';
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import {lightBlue} from '@mui/material/colors'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';

@@ -1,4 +1,9 @@
-.sticky-nav {
-  position: fixed;
-  top: 0;
+/* .sticky-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+#nav {
+  width: 100%;
 }

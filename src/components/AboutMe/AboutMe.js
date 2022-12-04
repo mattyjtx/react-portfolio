@@ -3,7 +3,7 @@ import * as React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import './Header.css'
+import './AboutMe.css'
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
@@ -22,7 +22,7 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 
-function Header() {
+function AboutMe() {
     return (
       
 <>
@@ -45,7 +45,6 @@ function Header() {
           </p>
           <ul class="list-group">
             <li class="list-group-item">Birthday: 10/3/92</li>
-            <li class="list-group-item">Age: 30</li>
             <li class="list-group-item">City: Odessa,TX</li>
             <li class="list-group-item">Freelance: Available</li>
             <li class="list-group-item">Tech used: HTML & CSS, Javascript, React, Node.js </li>
@@ -71,4 +70,4 @@ function Header() {
     );
   }
   
-  export default Header;
+  export default AboutMe;
